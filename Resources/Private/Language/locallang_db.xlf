@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-02T16:45:24Z" product-name="trb_ce_skills">
+		<header/>
+		<body>
+			<!-- CType -->
+			<trans-unit id="ctype.name"><source>Skills</source></trans-unit>
+			<trans-unit id="ctype.description"><source>Skills</source></trans-unit>
+			
+			<!-- Columns -->
+			<trans-unit id="column.description"><source>Description</source></trans-unit>
+			<trans-unit id="column.progress"><source>Progress</source></trans-unit>
+		</body>
+	</file>
+</xliff>

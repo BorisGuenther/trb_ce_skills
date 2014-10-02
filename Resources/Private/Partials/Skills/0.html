@@ -1,0 +1,12 @@
+<div class="skill-wrap">
+	<div style="display: none;">
+		<input type="text" value="{data.imageheight}" class="skill-level">
+	</div>
+	<h3 class="skill-title">{data.header}</h3>
+	<p class="skill-desc">{data.titleText}</p>
+	<ul class="fa-ul">
+		<f:for each="{data.tx_trb_ce_skills}" as="row">
+			<li><i class="fa-fw fa-li fa {row.icon}"></i>{row.text}</li>
+		</f:for>
+	</ul>
+</div>

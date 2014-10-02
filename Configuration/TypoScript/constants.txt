@@ -1,0 +1,14 @@
+# customsubcategory=trb_ce_skills=Skills
+
+plugin.tx_trbceskills {
+	view {
+		# cat=TRB Common: Paths/trb_ce_skills/10; type=string; label=Templates Root Path;
+		templateRootPath = EXT:trb_ce_skills/Resources/Private/Templates/
+
+		# cat=TRB Common: Paths/trb_ce_skills/20; type=string; label=Partials Root Path;
+		partialRootPath = EXT:trb_ce_skills/Resources/Private/Partials/
+
+		# cat=TRB Common: Paths/trb_ce_skills/30; type=string; label=Layouts Root Path;
+		layoutRootPath = EXT:trb_ce_skills/Resources/Private/Layouts/		
+	}
+}
